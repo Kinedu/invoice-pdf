@@ -1,0 +1,35 @@
+{
+    "name": "kinedu/invoice-pdf",
+    "description": "",
+    "homepage": "https://github.com/Kinedu/invoice-pdf",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Kinedu"
+    ],
+    "authors": [
+        {
+            "name": "Orlando Charles",
+            "email": "orlando@kinedu.com",
+            "homepage": "https://orlandocharles.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kinedu\\InvoicePDF\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kinedu\\InvoicePDF\\\\Tests\\": "tests"
+        }
+    },
+    "prefer-stable": true
+}
