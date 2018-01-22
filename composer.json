@@ -16,7 +16,8 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "setasign/fpdf": "1.8.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
@@ -24,7 +25,10 @@
     "autoload": {
         "psr-4": {
             "Kinedu\\InvoicePDF\\": "src"
-        }
+        },
+        "classmap": [
+            "vendor/setasign/fpdf/fpdf.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
