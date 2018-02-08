@@ -61,8 +61,7 @@ class Invoice
     {
         $prefix = 'add';
 
-        if((substr($method, 0, 3) === $prefix)) {
-
+        if ((substr($method, 0, 3) === $prefix)) {
             $name = substr($method, strlen($prefix));
             $name = strtolower($name);
 
