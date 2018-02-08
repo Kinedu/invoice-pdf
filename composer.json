@@ -1,6 +1,6 @@
 {
     "name": "kinedu/invoice-pdf",
-    "description": "",
+    "description": "Package that allows you to create invoices in PDF format",
     "homepage": "https://github.com/Kinedu/invoice-pdf",
     "type": "library",
     "license": "MIT",
